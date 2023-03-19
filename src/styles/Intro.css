@@ -1,0 +1,94 @@
+.intro {
+  background: white;
+  display: grid;
+  gap: 1rem;
+  margin-top: -3.5rem;
+  padding: 0 1.5rem 2.5rem;
+  text-align: center;
+}
+
+@media (width <= 500px) {
+  .intro {
+    place-items: center;
+  }
+}
+
+.intro__logo {
+  margin-top: -30px;
+}
+
+.intro__title {
+  font-size: 21px;
+}
+
+.pledge__about-body {
+  max-width: 550px;
+}
+
+@media (width > 600px) {
+  .intro__title {
+    font-size: 24px;
+  }
+
+  .intro__body {
+    font-size: 15px;
+  }
+}
+
+.intro__btn-container {
+  display: flex;
+  gap: .5rem;
+  margin-top: .75rem;
+}
+
+.intro__back-btn {
+  height: 56px;
+  width: 200px;
+}
+
+.intro__bookmark-btn {
+  cursor: pointer;
+  height: 56px;
+}
+
+.intro__bookmark-bg {
+  height: 56px;
+  width: 56px;
+}
+
+.bg-clicked circle {
+  fill: var(--hover);
+}
+
+.bg-clicked path {
+  fill: #fff;
+}
+
+.intro__bookmark-btn:hover {
+  opacity: .8;
+}
+
+.bmk-clicked * {
+  color: var(--hover);
+}
+
+.intro__bookmark-body {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+@media (width > 500px) {
+  .intro__btn-container {
+    justify-content: space-between;
+  }
+
+  .intro__bookmark-btn {
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 30px;
+    display: flex;
+    gap: 1rem;
+    padding-right: 2rem;
+  }
+}
+

@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-family: commissioner;
+  margin: 0;
+}
+
+html{
+  margin-right: -14px !important;
+  min-height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+
+body{
+  height: 100%;
+}
+
+p {
+  color: var(--gray);
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+@media (width > 600px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+.dim-div {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}

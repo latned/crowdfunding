@@ -1,0 +1,47 @@
+.finish {
+  background: white;
+  border-radius: 10px;
+  display: grid;
+  gap: 2rem;
+  padding: 2.5rem 1.5rem;
+  place-items: center;
+  position: absolute;
+  text-align: center;
+  width: 330px;
+  z-index: 100;
+}
+
+.finish__title {
+  font-size: 19px;
+}
+
+.finish__btn {
+  background: var(--cyan);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: 700;
+  height: 50px;
+  width: 110px;
+}
+
+@media (width > 700px) {
+  .finish {
+    padding: 3rem 1.5rem;
+    width: 540px;
+  }
+
+  .finish__img {
+    margin-bottom: 1.5rem;
+    width: 85px;
+  }
+
+  .finish__title {
+    font-size: 23px;
+  }
+
+  .finish__body {
+    margin-bottom: 1rem;
+    max-width: 462px;
+  }
+}

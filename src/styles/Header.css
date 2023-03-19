@@ -1,0 +1,79 @@
+.header-wrapper {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(255,255,255,0)), url('../images/image-hero-mobile.jpg') center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  padding: 2rem 1.5rem;
+}
+
+
+@media (width > 500px) {
+  .header-wrapper {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(255,255,255,0)), url('../images/image-hero-desktop.jpg') no-repeat center top;
+    background-size: cover;
+    padding-bottom: 25%;
+  }
+}
+
+@media (width > 700px) {
+  .header-wrapper {
+    padding: 2rem 10% 25%;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile-menu {
+  background: #fff;
+  border-radius: 10px;
+  display: grid;
+  position: absolute;
+  top: 6rem;
+  right: 2.5rem;
+  width: 325px;
+  z-index: 100;
+}
+
+@media (width > 500px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
+.mobile-menu__nav-link {
+  border-bottom: 1px solid var(--brd-clr);
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 1.25rem 1rem;
+}
+
+.wbb {
+  border: none;
+}
+
+.mb-break  {
+  padding-right: 1rem;
+  z-index: 100;
+}
+
+.header__hamburger-menu {
+  cursor: pointer;
+}
+
+.header__nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.sl {
+  text-decoration: none;
+}
+
+.header__nav-link {
+  color: #fff;
+  font-size: 14px;
+}

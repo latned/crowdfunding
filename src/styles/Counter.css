@@ -1,0 +1,64 @@
+.counter__count-container {
+  display: grid;
+  gap: .5rem;
+}
+
+.counter__title {
+  font-size: 30px;
+}
+
+.counter {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+@media (width > 700px) {
+  .counter {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem 2.5rem;
+    text-align: start;
+  }
+
+  .br-right {
+    border-right: 1px solid #dedede;
+  }
+
+  .pad-left {
+    padding-left: 1rem;
+  }
+
+  .counter__progress-bar {
+    grid-column: 1 / span 3;
+  }
+}
+
+.counter__progress-bar {
+  background: #f0f0f0;
+  border-radius: 6px;
+  height: 12px;
+  width: 100%;
+}
+
+.counter__progress-bar__fill {
+  background: var(--cyan);
+  border-radius: 6px;
+  height: 12px;
+  max-width: 100%;
+}
+
+.counter__vl {
+  border-bottom: 1px solid #dedede;
+  justify-self: center;
+  margin-top: .75rem;
+  width: 27%;
+}
+
+@media (width > 700px) {
+  .counter__vl {
+    display: none;
+  }
+}
+
+
