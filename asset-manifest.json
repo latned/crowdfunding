@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/crowdfunding/static/css/main.52294b15.css",
+    "main.js": "/crowdfunding/static/js/main.bd74a681.js",
+    "static/js/787.d9670b49.chunk.js": "/crowdfunding/static/js/787.d9670b49.chunk.js",
+    "static/media/Commissioner-Bold.otf": "/crowdfunding/static/media/Commissioner-Bold.5453aa006f93531354f8.otf",
+    "static/media/Commissioner-Medium.otf": "/crowdfunding/static/media/Commissioner-Medium.7e9a13ef1c0dad819ae5.otf",
+    "static/media/Commissioner-Regular.otf": "/crowdfunding/static/media/Commissioner-Regular.c87e4b1b18d89b2c3dfe.otf",
+    "static/media/image-hero-desktop.jpg": "/crowdfunding/static/media/image-hero-desktop.631209c1fe8e34fb78c2.jpg",
+    "static/media/image-hero-mobile.jpg": "/crowdfunding/static/media/image-hero-mobile.d4f477d4cd11ac3a012f.jpg",
+    "static/media/logo.svg": "/crowdfunding/static/media/logo.e6f12bc6bbf5e5c65ded26ce3d2904c7.svg",
+    "static/media/logo-mastercraft.svg": "/crowdfunding/static/media/logo-mastercraft.dca2a8312b376716a2e0b7dfb8828b86.svg",
+    "index.html": "/crowdfunding/index.html",
+    "static/media/icon-close-menu.svg": "/crowdfunding/static/media/icon-close-menu.32169d313e5fa6171811fd73fe1e3568.svg",
+    "static/media/icon-check.svg": "/crowdfunding/static/media/icon-check.bdee5269fa45688504fcc6fb78ab8756.svg",
+    "static/media/icon-hamburger.svg": "/crowdfunding/static/media/icon-hamburger.f8a9f0cf12d419a7d18556f98d81a47e.svg",
+    "main.52294b15.css.map": "/crowdfunding/static/css/main.52294b15.css.map",
+    "main.bd74a681.js.map": "/crowdfunding/static/js/main.bd74a681.js.map",
+    "787.d9670b49.chunk.js.map": "/crowdfunding/static/js/787.d9670b49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52294b15.css",
+    "static/js/main.bd74a681.js"
+  ]
+}
